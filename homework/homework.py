@@ -2,7 +2,7 @@
 Escriba el codigo que ejecute la accion solicitada.
 """
 
-# pylint: disable=import-outside-toplevel
+
 import os
 import zipfile
 import pandas as pd
@@ -62,10 +62,12 @@ def month_to_number(month_str):
 
 if __name__ == "__main__":
     clean_campaign_data()
-    """
+
+
+"""
     En esta tarea se le pide que limpie los datos de una campaña de
     marketing realizada por un banco, la cual tiene como fin la
-    recolección de datos de clientes para ofrecerls un préstamo.
+    recolección de datos de clientes para ofrecerles un préstamo.
 
     La información recolectada se encuentra en la carpeta
     files/input/ en varios archivos csv.zip comprimidos para ahorrar
@@ -105,9 +107,3 @@ if __name__ == "__main__":
 
 
     """
-
-    return
-
-
-if __name__ == "__main__":
-    clean_campaign_data()
